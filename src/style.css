@@ -1,8 +1,9 @@
 /* ///////////// Index.html /////////////////// */
 body {
-    background: -webkit-linear-gradient(45deg, black, rgb(51, 5, 5), rgb(161, 10, 10), rgb(179, 165, 36), white);
-    width: 930px;
-    height: 850px;
+    background: linear-gradient(45deg, black, rgb(51, 5, 5), rgb(161, 10, 10), rgb(179, 165, 36), white);
+    width: 100vw;
+    min-height: 100vh;
+    max-height: max-content;
     margin: auto;
 }
 
@@ -15,6 +16,7 @@ body {
 }
 .h1 {
     transition: .2s;
+    margin: 1% 0;
 }
 
 /* ///////////// Form /////////////////// */
