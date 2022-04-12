@@ -32,7 +32,7 @@ export default function App() {
             <Form movieSearch={getMovie} />
             <MovieDisplay movie={movie} />
             <footer className="link">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+                <a href="https://github.com/lucas9121" target="_blank" rel="noopener noreferrer" >
                     <FontAwesomeIcon className="icon" icon="fa-brands fa-github" size="4x" />
                 </a>
                 {/* <FontAwesomeIcon icon="fa-brands fa-linkedin" size="4x" /> */}
